@@ -39,6 +39,9 @@ class Xem_Currency {
 		    //Get rate for usd at first, then it will calculate in UAH
                     $response = wp_remote_get('https://api.coinmarketcap.com/v1/ticker/nem/?convert=USD');
                     break;
+                case 'JPY':
+                    $response = wp_remote_get('https://api.coinmarketcap.com/v1/ticker/nem/?convert=JPY');
+                    break;
                 case 'ALL':
                     $response = wp_remote_get('https://api.coinmarketcap.com/v1/ticker/nem/?convert=USD');
                     break;
@@ -94,6 +97,9 @@ class Xem_Currency {
 			case 'UAH':				
 				$callback['amount'] = $amount / (floatval($data[0]->price_usd) * self::get_rate_uah());
 				break;
+			case 'JPY':
+				$callback['amount'] = $amount / $data[0]->price_jpy;
+				break;
 			case 'BTC':
 				$callback['amount'] = $amount / $data[0]->price_btc;
 				break;
@@ -107,6 +113,9 @@ class Xem_Currency {
 				}
 				if(!empty($data[0]->price_uah)){
 					$callback['amount_uah'] = $amount / (floatval($data[0]->price_usd) * self::get_rate_uah());
+				}
+				if(!empty($data[0]->price_jpy)){
+					$callback['amount_jpy'] = $amount / $data[0]->price_jpy;
 				}
 				if(!empty($data[0]->price_btc)){
 					$callback['amount_btc'] = $amount / $data[0]->price_btc;
