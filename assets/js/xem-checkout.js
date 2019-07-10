@@ -1,7 +1,6 @@
 (function( $ ) {
     var xemPayment = {
         init: function () {
-
             $.initialize("#xem-qr", function() {
                 //Get form
                 if ( $( '#xem-form' ).length ) {
@@ -39,10 +38,26 @@
                 });
 
                 /*Add copy functinality to amount, ref and nem address*/
-                if(Clipboard.isSupported()){
-                    new Clipboard('#xem-amount-wrapper');
-                    new Clipboard('#xem-address-wrapper');
-                    new Clipboard('#xem-ref-wrapper');
+                if(ClipboardJS.isSupported()){
+                    new ClipboardJS('#xem-amount-wrapper');
+                    new ClipboardJS('#xem-address-wrapper');
+                    new ClipboardJS('#xem-ref-wrapper');
+
+                    // initialize clipboard tooltip
+                    $withClipboard = $('.xem-payment-desc-row [data-clipboard-text]')
+                    $withClipboard.each(function(i, el) {
+                        const tooltip = document.createElement('span');
+                        tooltip.setAttribute('aria-label', 'copied');
+                        el.appendChild(tooltip)
+                        el.addEventListener('click', function() {
+                            tooltip.setAttribute('data-balloon-pos', 'up');
+                            tooltip.setAttribute('data-balloon-visible', 'true');
+                            setTimeout(function() {
+                                tooltip.removeAttribute('data-balloon-visible');
+                                tooltip.removeAttribute('data-balloon-pos');
+                            }, 200)
+                        })
+                    })
                 }
 
                 //Set payment button to disabled if whole chech is updated.
@@ -69,8 +84,6 @@
 
                 xemPayment.nanobar = new Nanobar( options );
             });
-
-
         },
         updateXemAmount: function () {
             this.ajaxGetXemAmount().done(function (res) {

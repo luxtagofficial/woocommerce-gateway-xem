@@ -110,13 +110,13 @@ class WC_Gateway_Xem extends WC_Payment_Gateway {
         echo '<div>';
 
         echo '<div class="xem-payment-desc-row">';
-        echo '<label class="xem-label-for">' . __('Amount XEM:', 'woocommerce-gateway-xem') . '</label>';
-        echo '<label id="xem-amount-wrapper" class="xem-label xem-amount" data-clipboard-text="' . esc_attr($xem_amount) . '">' . esc_attr($xem_amount) . '</label>';
+        echo '<label class="xem-label-for">' . __('Address:', 'woocommerce-gateway-xem') . '</label>';
+        echo '<label id="xem-address-wrapper" class="xem-label xem-address" data-clipboard-text="' . esc_attr($this->xem_address) . '">' . esc_attr($this->xem_address) . '</label>';
         echo '</div>';
 
         echo '<div class="xem-payment-desc-row">';
-        echo '<label class="xem-label-for">' . __('Address:', 'woocommerce-gateway-xem') . '</label>';
-        echo '<label id="xem-address-wrapper" class="xem-label xem-address" data-clipboard-text="' . esc_attr($this->xem_address) . '">' . esc_attr($this->xem_address) . '</label>';
+        echo '<label class="xem-label-for">' . __('Amount XEM:', 'woocommerce-gateway-xem') . '</label>';
+        echo '<label id="xem-amount-wrapper" class="xem-label xem-amount" data-clipboard-text="' . esc_attr($xem_amount) . '">' . esc_attr($xem_amount) . '</label>';
         echo '</div>';
 
         echo '<div class="xem-payment-desc-row">';
@@ -156,7 +156,7 @@ class WC_Gateway_Xem extends WC_Payment_Gateway {
             'nanobar'
         ), WC_XEM_VERSION, true);
         wp_enqueue_style('woocommerce_xem_css', plugins_url('assets/css/xem-checkout.css', WC_XEM_MAIN_FILE), array(), WC_XEM_VERSION);
-
+        wp_enqueue_style('balloon_css', plugins_url('assets/css/balloon.min.css', WC_XEM_MAIN_FILE), array(), WC_XEM_VERSION);
 
         //Add js variables
         $xem_params = array(
