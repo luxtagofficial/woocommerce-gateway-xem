@@ -180,7 +180,7 @@ msgid "WooCommerce Xem Gateway"
 msgstr ""
 
 #. Description of the plugin
-msgid "Take XEM coin payments inn your store."
+msgid "Take XEM coin payments in your store."
 msgstr ""
 
 #. URI of the plugin
