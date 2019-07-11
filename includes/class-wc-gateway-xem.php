@@ -146,7 +146,6 @@ class WC_Gateway_Xem extends WC_Payment_Gateway {
 
         wp_enqueue_script('woocommerce_xem_qrcode', plugins_url('assets/js/qrcode' . $suffix . '.js', WC_XEM_MAIN_FILE), array( 'jquery' ), WC_XEM_VERSION, true);
         wp_enqueue_script('jquery-initialize', plugins_url('assets/js/jquery.initialize' . $suffix . '.js', WC_XEM_MAIN_FILE), array( 'jquery' ), WC_XEM_VERSION, true);
-        wp_enqueue_script('clipboard', plugins_url('assets/js/clipboard' . $suffix . '.js', WC_XEM_MAIN_FILE), array( 'jquery' ), WC_XEM_VERSION, true);
         wp_enqueue_script('nanobar', plugins_url('assets/js/nanobar' . $suffix . '.js', WC_XEM_MAIN_FILE), array( 'jquery' ), WC_XEM_VERSION, true);
         wp_enqueue_script('woocommerce_xem_js', plugins_url('assets/js/xem-checkout' . $suffix . '.js', WC_XEM_MAIN_FILE), array(
             'jquery',

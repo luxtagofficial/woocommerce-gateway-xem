@@ -55,7 +55,7 @@
                             setTimeout(function() {
                                 tooltip.removeAttribute('data-balloon-visible');
                                 tooltip.removeAttribute('data-balloon-pos');
-                            }, 200)
+                            }, 300)
                         })
                     })
                 }
