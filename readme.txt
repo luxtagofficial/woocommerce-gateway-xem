@@ -1,16 +1,18 @@
-=== Woocommerce Gateway XEM ===
-Contributors: inpali
+=== Woocommerce Gateway XEM (Luxtag Fork) ===
+Contributors: inpali, luxtagofficial
 Donate link: http://nem.today
-Tags: woocommerce, nem, xem, payment, payment gateway, digital currency, bitcoin, xme coin
-Requires at least: 3.0.1
-Tested up to: 4.7.5
-Stable tag: 4.6
+Tags: woocommerce, nem, xem, payment, payment gateway, digital currency, bitcoin, xem coin
+Requires at least: 5.2.0
+Tested up to: 5.2.0
+Stable tag: 0.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Accept XEM payments in you store automatically over the NEM network. Real-time convert EUR, USD, BTC to XEM.
 
 == Description ==
+
+This plugin is forked from https://github.com/RobertoSnap/woocommerce-gateway-xem. We fork the plugin to maintain its compatibility with current wordpress. 
 
 Accept XEM payments directly in your store.
 

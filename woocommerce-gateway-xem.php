@@ -1,12 +1,12 @@
 <?php
 /*
  * Plugin Name: WooCommerce Xem Gateway (Luxtag Fork)
- * Plugin URI: https://wordpress.org/plugins/woocommerce-gateway-xem--luxtag-fork/
+ * Plugin URI: https://wordpress.org/plugins/woocommerce-gateway-xem-luxtag-fork/
  * Description: Take XEM coin payments in your store.
  * Author: Luxtag Official
  * Author URI: https://luxtag.io
  * Version: 0.0.1
- * Text Domain: woocommerce-gateway-xem--luxtag-fork
+ * Text Domain: woocommerce-gateway-xem-luxtag-fork
  * Domain Path: /languages
  *
  *
