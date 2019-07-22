@@ -191,6 +191,10 @@ msgstr ""
 msgid "Robin Pedersen"
 msgstr ""
 
+#. Author of the plugin
+msgid "Luxtag Official"
+msgstr ""
+
 #. Author URI of the plugin
-msgid "http://nem.today"
+msgid "https://luxtag.io"
 msgstr ""

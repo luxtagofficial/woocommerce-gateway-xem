@@ -1,10 +1,10 @@
 === Woocommerce Gateway XEM (Luxtag Fork) ===
-Contributors: inpali, luxtagofficial
-Donation address (NEM1): NDESOVOBHA4L2U5WNRTZAYQADO76K7532RXGMERH
+Contributors: inpali, wildanluxtag, luxtagofficial
+Donation link: github.com/luxtagofficial/woocommerce-gateway-xem/blob/master/donate.md
 Tags: woocommerce, nem, xem, payment, payment gateway, digital currency, bitcoin, xem coin
 Requires at least: 5.2.0
 Tested up to: 5.2.2
-Stable tag: 0.0.1
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,8 +29,6 @@ It caches prices when needed each minute, so it will not overload your database 
 
 The payment process is built upon standard Woocommerce processes, so other 3pt plugin should work.
 
-Try out our demo store at  [nem.today](http://nem.today).
-
 Currently supported currencies are USD and EUR.
 
 == Screenshots ==
@@ -53,12 +51,13 @@ Yes
 
 = Do i need to have an XEM address to use this plugin =
 
-Yes, you can get your own private wallet here [here](https://blog.nem.io/windows-mac-installation-guide/)
-
+Yes. You can create your own XEM address from NEM wallet. Download NEM wallet: [https://nem.io/downloads/](https://nem.io/downloads/).
 
 == Changelog ==
 
-
+= 2.2.0 =
+* Forked from original repo at https://github.com/RobertoSnap/woocommerce-gateway-xem
+* Use clipboard.js from wordpress (included since wp5.2)
 
 = 2.1.9 =
 * Added translations

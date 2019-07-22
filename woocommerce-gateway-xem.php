@@ -5,7 +5,7 @@
  * Description: Take XEM coin payments in your store.
  * Author: Luxtag Official
  * Author URI: https://luxtag.io
- * Version: 0.0.1
+ * Version: 2.2.0
  * Text Domain: woocommerce-gateway-xem-luxtag-fork
  * Domain Path: /languages
  *
@@ -37,7 +37,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'WC_XEM_PLUGIN_URL', untrailingslashit( plugins_url( basename( plugin_dir_path( __FILE__ ) ), basename( __FILE__ ) ) ) );
-define( 'WC_XEM_VERSION', '0.0.1' );
+define( 'WC_XEM_VERSION', '2.2.0' );
 define( 'WC_XEM_MIN_PHP_VER', '5.3.0' );
 define( 'WC_XEM_MIN_WC_VER', '2.5.0' );
 define( 'WC_XEM_MAIN_FILE', __FILE__ );
