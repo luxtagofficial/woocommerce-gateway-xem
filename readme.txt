@@ -1,6 +1,6 @@
 === Woocommerce Gateway XEM (Luxtag Fork) ===
 Contributors: inpali, wildanluxtag, luxtagofficial
-Donation link: github.com/luxtagofficial/woocommerce-gateway-xem/blob/master/donate.md
+Donate link: https://github.com/luxtagofficial/woocommerce-gateway-xem/blob/master/donate.md
 Tags: woocommerce, nem, xem, payment, payment gateway, digital currency, bitcoin, xem coin
 Requires at least: 5.2.0
 Tested up to: 5.2.2
