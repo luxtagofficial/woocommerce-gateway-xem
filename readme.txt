@@ -1,9 +1,9 @@
 === Woocommerce Gateway XEM (Luxtag Fork) ===
 Contributors: inpali, luxtagofficial
-Donate link: http://nem.today
+Donation address (NEM1): NDESOVOBHA4L2U5WNRTZAYQADO76K7532RXGMERH
 Tags: woocommerce, nem, xem, payment, payment gateway, digital currency, bitcoin, xem coin
 Requires at least: 5.2.0
-Tested up to: 5.2.0
+Tested up to: 5.2.2
 Stable tag: 0.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
