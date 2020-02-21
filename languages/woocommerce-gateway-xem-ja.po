@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce Xem Gateway\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-22 09:39+0000\n"
-"PO-Revision-Date: 2017-05-22 09:43+0000\n"
+"PO-Revision-Date: 2020-02-21 17:46+0900\n"
 "Last-Translator: admin <rpe@outlook.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -11,7 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/"
+"X-Generator: Poedit 2.3\n"
 
 #: woocommerce-gateway-xem.php:274
 #, php-format
@@ -19,10 +19,14 @@ msgid ""
 "WooCommerce XEM - The minimum PHP version required for this plugin is %1$s. "
 "You are running %2$s."
 msgstr ""
+"WooCommerce XEM - このプラグインに必要な最小 PHP バージョンは %1$s で"
+"す。%2$s を実行しています。"
 
 #: woocommerce-gateway-xem.php:280
 msgid "WooCommerce XEM requires WooCommerce to be activated to work."
 msgstr ""
+"WooCommerce XEM を使用するには、WooCommerce を アクティブにする必要がありま"
+"す。"
 
 #: woocommerce-gateway-xem.php:284
 #, php-format
@@ -30,84 +34,93 @@ msgid ""
 "WooCommerce XEM - The minimum WooCommerce version required for this plugin "
 "is %1$s. You are running %2$s."
 msgstr ""
+"WooCommerce XEM - このプラグインに必要な WooCommerce の最小バージョンは "
+"%1$s です。 %2$s を実行しています。"
 
 #: woocommerce-gateway-xem.php:290
 msgid "WooCommerce XEM - cURL is not installed."
-msgstr ""
+msgstr "WooCommerce XEM - cURL がインストールされていません。"
 
 #: woocommerce-gateway-xem.php:305
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: includes/class-wc-gateway-xem.php:21
 msgid "XEM"
-msgstr ""
+msgstr "XEM"
 
 #: includes/class-wc-gateway-xem.php:22
+#, fuzzy
 msgid ""
 "XEM works by showing a QR code and let customers pay XEM to your XEM wallet "
 "for orders in you shop."
 msgstr ""
+"表示される QR コードを利用して、顧客は、ショップでの注文に対して、あなたの "
+"XEM ウォレットに XEM で支払うことができます。"
 
 #: includes/class-wc-gateway-xem.php:113
 msgid "Amount XEM:"
-msgstr ""
+msgstr "Amount XEM:"
 
 #: includes/class-wc-gateway-xem.php:118
 msgid "Address:"
-msgstr ""
+msgstr "Address:"
 
 #: includes/class-wc-gateway-xem.php:123
 msgid "Reference:"
-msgstr ""
+msgstr "Reference:"
 
 #: includes/class-wc-gateway-xem.php:176
 msgid ""
 "A XEM payment has not been registered to this checkout. Please contact our "
 "support department."
 msgstr ""
+"XEM 支払いはこのチェックアウトに登録されていません。サポート部門にお問い合わ"
+"せください。"
 
 #: includes/wc-gateway-xem-settings.php:10
 msgid "Enable/Disable"
-msgstr ""
+msgstr "有効/無効にする"
 
 #: includes/wc-gateway-xem-settings.php:11
 msgid "Enable XEM payments"
-msgstr ""
+msgstr "XEM 支払いを有効にする"
 
 #: includes/wc-gateway-xem-settings.php:17
 msgid "Title"
-msgstr ""
+msgstr "タイトル"
 
 #: includes/wc-gateway-xem-settings.php:19
 msgid "This controls the title which the user sees during checkout."
-msgstr ""
+msgstr "チェックアウト時にユーザーに表示されるタイトルを管理します。"
 
 #: includes/wc-gateway-xem-settings.php:20
 msgid "XEM (Digital currency)"
-msgstr ""
+msgstr "XEM (仮想通貨)"
 
 #: includes/wc-gateway-xem-settings.php:24
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: includes/wc-gateway-xem-settings.php:26
 msgid ""
 "This controls the description which the user sees during checkout. Leave it "
 "empty and it will not show."
 msgstr ""
+"チェックアウト時にユーザーに表示される説明を管理します。空のままにすると、表"
+"示されません。"
 
 #: includes/wc-gateway-xem-settings.php:27
 msgid "Pay with XEM."
-msgstr ""
+msgstr "XEM でのお支払い。"
 
 #: includes/wc-gateway-xem-settings.php:31
 msgid "XEM address"
-msgstr ""
+msgstr "XEM アドレス"
 
 #: includes/wc-gateway-xem-settings.php:33
 msgid "Input the XEM address where you want customers to pay XEM too."
-msgstr ""
+msgstr "顧客からの XEM 支払いを受け付ける XEM アドレスを入力します。"
 
 #: includes/wc-gateway-xem-settings.php:39
 msgid "Match amount"
@@ -125,76 +138,76 @@ msgstr ""
 
 #: includes/wc-gateway-xem-settings.php:47
 msgid "Show prices in XEM"
-msgstr ""
+msgstr "XEM で価格を表示"
 
 #: includes/wc-gateway-xem-settings.php:50
 msgid "Show prices on store pages in XEM"
-msgstr ""
+msgstr "ストアページの価格を XEM で表示します"
 
 #: includes/wc-gateway-xem-settings.php:54
 msgid "Default prices"
-msgstr ""
+msgstr "デフォルト価格"
 
 #: includes/wc-gateway-xem-settings.php:55
 msgid "Only XEM price"
-msgstr ""
+msgstr "XEM 価格のみ"
 
 #: includes/wc-gateway-xem-settings.php:56
 msgid "Default and XEM prices"
-msgstr ""
+msgstr "デフォルト価格と XEM 価格"
 
 #: includes/wc-gateway-xem-settings.php:60
 msgid "Logging"
-msgstr ""
+msgstr "ログを記録する"
 
 #: includes/wc-gateway-xem-settings.php:61
 msgid "Log debug messages"
-msgstr ""
+msgstr "デバッグメッセージを記録する"
 
 #: includes/wc-gateway-xem-settings.php:63
 msgid "Save debug messages to the WooCommerce System Status log."
-msgstr ""
+msgstr "デバッグメッセージを WooCommerce System Status ログに保存します。"
 
 #: includes/wc-gateway-xem-settings.php:68
 msgid "Test"
-msgstr ""
+msgstr "テスト"
 
 #: includes/wc-gateway-xem-settings.php:69
 msgid "Run in TESTNET"
-msgstr ""
+msgstr "TESTNET で実行"
 
 #: includes/wc-gateway-xem-settings.php:71
 msgid "Will run payments on the testnet"
-msgstr ""
+msgstr "TESTNET で支払いを実行します"
 
 #: includes/wc-gateway-xem-settings.php:76
 msgid "TESTNET XEM address"
-msgstr ""
+msgstr "TESTNET XEM アドレス"
 
 #: includes/wc-gateway-xem-settings.php:78
 msgid "TESTNET XEM address. Should always start with T"
-msgstr ""
+msgstr "TESTNET XEM アドレス。常に T で始まる必要があります"
 
 #. Name of the plugin
 msgid "WooCommerce Xem Gateway"
-msgstr ""
+msgstr "WooCommerce Xem Gateway"
 
 #. Description of the plugin
 msgid "Take XEM coin payments in your store."
-msgstr ""
+msgstr "Take XEM coin payments in your store."
 
 #. URI of the plugin
 msgid "https://wordpress.org/plugins/woocommerce-gateway-xem/"
-msgstr ""
+msgstr "https://wordpress.org/plugins/woocommerce-gateway-xem/"
 
 #. Author of the plugin
 msgid "Robin Pedersen"
-msgstr ""
+msgstr "Robin Pedersen"
 
 #. Author of the plugin
 msgid "Luxtag Official"
-msgstr ""
+msgstr "Luxtag Official"
 
 #. Author URI of the plugin
 msgid "https://luxtag.io"
-msgstr ""
+msgstr "https://luxtag.io"
